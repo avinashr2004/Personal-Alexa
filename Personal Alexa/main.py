@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import speech_recognition as sr #ok
 import pyttsx3
 import pywhatkit
 import datetime
@@ -35,7 +35,7 @@ def command():
 
 def evoke_alexa():
     text = command()  
-    print("You said :" + text)
+    print("You said :" + text) 
 
     if "play" in text:
         song = text.replace("play", '')
